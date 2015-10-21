@@ -1,507 +1,126 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"  content="width-device-width, initial-scale-1.0"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport"  content="width-device-width, initial-scale-1.0" />
 
     <link rel="stylesheet" type="text/css" href="style.css" />
-    
-    <link rel="stylesheet" type="text/css" href="slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
-    
- 
-    
-    
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  
-    <!--<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>-->
-    <script type="text/javascript" src="js/jquery-ui-1.8.22.custom.min.js"></script>
-    <script type="text/javascript" src="js/jquery.cookie.js"></script>
-    <script type="text/javascript" src="js/workscripts.js"></script>
-	
-	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
-    
-	<title>Test</title>
-</head>
 
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/work.js"></script>
+
+    <title>Astound Test</title>
+</head>
 <body>
 
-    <div id="wrapper">
-    <!--<div class="container1">-->
-        <div id="header">
-            <div class="container clearfix">
-                <div class="logo">
-                    <a href="#"><img src="img/logo.png" alt="" />
-                    <img class="home-img" style="height:30px; width:30px;float: right;margin: 10px 0 0 45px;" src="img/home.png" /> </a>
+<div id="wrapper">
+    <h1>NAUTICAl T-SHirt</h1>
+    <div class="img">
+        <img src="img/img.png" />
+    </div>
+    <div class="form">
+        <form action="#" method="post">
+            <div class="table">
+                <div class="row">
+                    <div class="cell">color</div>
+                    <div class="cell">
+                        <label class="color color-active" for="color1"></label>
+                        <label class="color" for="color2"></label>
+                        <label class="color" for="color3"></label>
+                        <label class="color" for="color4"></label>
+                        <input type="radio" name="color" id="color1" checked="" />
+                        <input type="radio" name="color" id="color2" />
+                        <input type="radio" name="color" id="color3" />
+                        <input type="radio" name="color" id="color4" />
+                    </div>
                 </div>
-                <a href="#" id="touch-menu">Меню</a>
-                <ul class="nav">
-                    <li><a href="#">Новости</a></li>
-                    <li><a href="#">Аукционы<img src="img/open.png" /></a>
-                        <ul>
-                        <li><a href="#">Аукцион</a></li>
-                        <li><a href="#">Аукцион</a></li>
-                        <li><a href="#">Аукцион</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Галерея<img src="img/open.png" /></a>
-                        <ul>
-                        <li><a href="#">Аукцион</a></li>
-                        <li><a href="#">Аукцион</a></li>
-                        <li><a href="#">Аукцион</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Информация<img src="img/open.png" /></a>
-                        <ul>
-                        <li><a href="#">Аукцион</a></li>
-                        <li><a href="#">Аукцион</a></li>
-                        <li><a href="#">Аукцион</a></li>
-                        </ul>                    
-                    </li>
-                    <li><a href="#">О нас<img src="img/open.png" /></a>
-                        <ul>
-                        <li><a href="#">Аукцион</a></li>
-                        <li><a href="#">Аукцион</a></li>
-                        <li><a href="#">Аукцион</a></li>
-                        </ul>                    
-                    </li>
-                    <li><a href="#">Контакты</a></li>
-                    <li><a href="#">Р<img src="img/open.png" /></a>
-                        <ul>
-                        <li><a href="#">Аукцион</a></li>
-                        <li><a href="#">Аукцион</a></li>
-                        <li><a href="#">Аукцион</a></li>
-                        </ul>
-                    </li>                              
-                </ul>
-                <a href="#" class="btn">войти</a>
-            </div>
-        </div>
-        <div id="home">
-
-     <div class="container clearfix">
-             <h2>АУКЦИОН №12</h2>
-                <h1>«Редкие и ценные книги и рукописи»</h1>
-                <h4>21 декабря в 1200 | В помещении аукционного дома «Антиквариум»</h4>
-                <a class="btn1"  style="width: 290px;" href="#">Смотреть online-каталог</a><br />
-                <img src="img/book.png" />
-                <a href="#" style="font-size:18px;">Печатная версия каталога</a>
-                <p>Для просмотра печатного каталога на устройствах iPhone и iPad рекомендуем использовать мобильный браузер 
-                    <a>Puffin Web Browser-CloudMosa, Inc.</a><br />
-     </div>
-        </div>
-        <div id="search" align="center">
-        <div class="container clearfix">
-            <form style="padding-top: 12px;">
-            <input style="max-width: 506px;width: 50%;border-radius:3px 0 0 3px;" placeholder="Введите название вещи, артикул или номер лота" />
-            <input style="width: 30%;" placeholder="Выберите раздел для поиска" /><img src="img/search-change.png" />
-            <input class="btn1" style="margin-left: -16px;width: 17%;border:none;color:#fff;cursor: pointer;" type="submit" value="Искать" />                        
-            </form>
-            </div>
-        </div>
-        
-        
-    <div id="content">
-        <div style="width: 100%;background: url(img/noise.png) repeat;"class="clearfix">
-        <div class="container clearfix">
-            <div id="cat">
-            <h2 class="title">Категории</h2>
-            <h4><b>Доступные для продожи товары (993)</b></h4>
-                <ul id="accordion">
-                    <h3><li><a href="#"><b>Книги</b> (453)&nbsp;<img src="img/ac.png" /></a></li></h3>
-                    <ul>
-                    <li><a href="#">123</a></li>
-                    <li><a href="#">123</a></li>
-                    <li><a href="#">123</a></li>
-                    </ul> 
-                    
-                    <h3><li><a href="#"><b>Книги</b> (453)&nbsp;<img src="img/ac.png" /></a></li></h3>
-                    <ul>
-                    <li><a href="#">123</a></li>
-                    <li><a href="#">123</a></li>
-                    <li><a href="#">123</a></li>
-                    </ul>
-                    
-                    <h3><li><a href="#"><b>Книги</b> (453)&nbsp;<img src="img/ac.png" /></a></li></h3>
-                    <ul>
-                    <li><a href="#">123</a></li>
-                    <li><a href="#">123</a></li>
-                    <li><a href="#">123</a></li>
-                    </ul>
-                    
-                    <h3><li><a href="#"><b>Книги</b> (453)&nbsp;<img src="img/ac.png" /></a></li></h3>
-                    <ul>
-                    <li><a href="#">123</a></li>
-                    <li><a href="#">123</a></li>
-                    <li><a href="#">123</a></li>
-                    </ul>
-                    
-                    
-                    <h3><li><a href="#"><b>Книги</b> (453)&nbsp;<img src="img/ac.png" /></a></li></h3>
-                    <ul>
-                    <li><a href="#">123</a></li>
-                    <li><a href="#">123</a></li>
-                    <li><a href="#">123</a></li>
-                    </ul>
-                    
-                    
-                    <h3><li><a href="#"><b>Книги</b> (453)&nbsp;<img src="img/ac.png" /></a></li></h3>
-                    <ul>
-                    <li><a href="#">123</a></li>
-                    <li><a href="#">123</a></li>
-                    <li><a href="#">123</a></li>
-                    </ul>                                                                                                    
-                    
-                    
-                    
-                    
-                </ul>
-            </div>
-            <div id="auction">
-            <h2 class="title">Предстоящие и текущие аукционы</h2>
-                <div id="au1" class="auction">
-                    <div class="img"><img src="img/5.png" /></div>
-                       <div id="au11"class="auction-nav">
-                            <p><span style="font-size: 17px!important;line-height:20.4px!important;">Аукцион №11</span><br />
-                            <b>«От телеги до ракеты»</b><br />
-                            Состоится 29 апреля в среду в 1900<br />
-                            в помещении аукционного дома «Антиквариум»</p><br />
-                            <a class="btn1" href="#">Смотреть online-каталог</a><br />
-                                <img src="img/book.png" />
-                            <a href="#" style="font-size:16px;">Печатная версия каталога</a>
-                            <p>Или <a href="#">скачайте</a> облегченную версию .pdf (44,3 МБ)</p>
+                <div class="row">
+                    <div class="cell">size</div>
+                    <div class="cell">
+                        <div class="select">
+                            <select name="size">
+                                <option value="0">select one</option>
+                                <option value="1">32</option>
+                                <option value="2">34</option>
+                                <option value="3">36</option>
+                                <option value="3">38</option>
+                                <option value="3">40</option>
+                                <option value="3">42</option>
+                            </select>
                         </div>
+                    </div>
                 </div>
- 
-                <div id="au2" class="auction">
-                    <img src="img/18.png" />
-                       <div id="au12" class="auction-nav">
-                            <p><span style="font-size: 17px!important;line-height:20.4px!important;">Аукцион №11</span><br />
-                            <b>«От телеги до ракеты»</b><br />
-                            Состоится 29 апреля в среду в 1900<br />
-                            в помещении аукционного дома «Антиквариум»</p><br />
-                            <a class="btn1" href="#">Смотреть online-каталог</a><br />
-                                <img src="img/book.png" />
-                            <a href="#" style="font-size:16px;">Печатная версия каталога</a>
-                            <p>Или <a href="#">скачайте</a> облегченную версию .pdf (44,3 МБ)</p>
-                        </div>                    
+                <div class="row">
+                    <div class="cell">quantity</div>
+                    <div class="cell">
+                        <div class="select">
+                            <select name="size" placeholder="selected one">
+                                <option value="1">1</option>
+                                <option selected value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="3">4</option>
+                                <option value="3">5</option>
+                                <option value="3">6</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
-               
-            </div>
-            
-            <div id="total">
-            <h2 class="title">Итоги последних прошедших аукционов</h2>
-                <div class="total">
-                <img src="img/6.png" />
-                <a href="#"><p>Аукцион №10</p></a>
-                </div>
-                <div class="total">
-                <img src="img/14.png" />
-                <a href="#"><p>Аукцион №9</p></a>
-                </div>
-                <div class="total">
-                <img src="img/19.png" />
-                <a href="#"><p>Аукцион №8</p></a>
-                </div>
-                
-            
-            </div>
-            
-
-        </div><!-- .container -->
-        </div><!-- background-->
-        
-        <div class="container clearfix">
-        <div  id="top"><h2 class="title">Топ-лоты аукциона №12</h2></div>
-            <div class="slider">
-
-                <div class="slider-top">
-
-                    <img class="top-img" src="img/top.png" />
-                       <img src="img/1.png" />
-                       <img class="icon" src="img/icon.png" />
-                       <a href="#"><p style="font-size: 17px;">Сумароков, П.И. Обозрение царствования и свойств Екатерины...</p></a>
-                       <p class="time">10 д. : 10ч. : 47 мин.</p>
-                       <img class="price-img" src="img/price.png" />
-                       <p class="price">Цена: 33 000 Руб</p>
-                       <a class="btn2" href="#">Сделать ставку</a>
-
-
-                </div>
-                <div class="slider-top">
-
-                        <img class="top-img" src="img/top.png" />
-                        <img src="img/2.png" />
-                        <img class="icon" src="img/icon.png" />
-                        <a href="#"><p style="font-size: 17px;">Сумароков, П.И. Обозрение царствования и свойств Екатерины...</p></a>
-                        <p class="time">10 д. : 10ч. : 47 мин.</p>
-                        <img class="price-img" src="img/price.png" />
-                        <p class="price">Цена: 44 000 Руб</p>
-                        <a class="btn2" href="#">Сделать ставку</a>
-
-                </div>
-                <div class="slider-top">
-
-                        <img class="top-img" src="img/top.png" />
-                        <img src="img/book1.png" />
-                        <img class="icon" src="img/icon.png" />
-                        <a href="#"><p style="font-size: 17px;">Сумароков, П.И. Обозрение царствования и свойств Екатерины...</p></a>
-                        <p class="time">10 д. : 10ч. : 47 мин.</p>
-                        <img class="price-img" src="img/price.png" />
-                        <p class="price">Цена: 33 000 Руб</p>
-                        <a class="btn2" href="#">Сделать ставку</a>
-
-                </div>
-                <div class="slider-top">
-
-                        <img class="top-img" src="img/top.png" />
-                        <img src="img/1.png" />
-                        <img class="icon" src="img/icon.png" />
-                        <a href="#"><p style="font-size: 17px;">Сумароков, П.И. Обозрение царствования и свойств Екатерины...</p></a>
-                        <p class="time">10 д. : 10ч. : 47 мин.</p>
-                        <img class="price-img" src="img/price.png" />
-                        <p class="price">Цена: 33 000 Руб</p>
-                        <a class="btn2" href="#">Сделать ставку</a>
-
-                </div>
-                <div class="slider-top">
-
-                        <img class="top-img" src="img/top.png" />
-                        <img src="img/1.png" />
-                        <img class="icon" src="img/icon.png" />
-                        <a href="#"><p style="font-size: 17px;">Сумароков, П.И. Обозрение царствования и свойств Екатерины...</p></a>
-                        <p class="time">10 д. : 10ч. : 47 мин.</p>
-                        <img class="price-img" src="img/price.png" />
-                        <p class="price">Цена: 33 000 Руб</p>
-                        <a class="btn2" href="#">Сделать ставку</a>
-
-
-                </div>
-                <div class="slider-top">
-
-                        <img class="top-img" src="img/top.png" />
-                        <img src="img/2.png" />
-                        <img class="icon" src="img/icon.png" />
-                        <a href="#"><p style="font-size: 17px;">Сумароков, П.И. Обозрение царствования и свойств Екатерины...</p></a>
-                        <p class="time">10 д. : 10ч. : 47 мин.</p>
-                        <img class="price-img" src="img/price.png" />
-                        <p class="price">Цена: 44 000 Руб</p>
-                        <a class="btn2" href="#">Сделать ставку</a>
-
-                </div>
-                <div class="slider-top">
-
-                        <img class="top-img" src="img/top.png" />
-                        <img src="img/book1.png" />
-                        <img class="icon" src="img/icon.png" />
-                        <a href="#"><p style="font-size: 17px;">Сумароков, П.И. Обозрение царствования и свойств Екатерины...</p></a>
-                        <p class="time">10 д. : 10ч. : 47 мин.</p>
-                        <img class="price-img" src="img/price.png" />
-                        <p class="price">Цена: 33 000 Руб</p>
-                        <a class="btn2" href="#">Сделать ставку</a>
-
-                </div>
-                <div class="slider-top">
-
-                        <img class="top-img" src="img/top.png" />
-                        <img src="img/1.png" />
-                        <img class="icon" src="img/icon.png" />
-                        <a href="#"><p style="font-size: 17px;">Сумароков, П.И. Обозрение царствования и свойств Екатерины...</p></a>
-                        <p class="time">10 д. : 10ч. : 47 мин.</p>
-                        <img class="price-img" src="img/price.png" />
-                        <p class="price">Цена: 33 000 Руб</p>
-                        <a class="btn2" href="#">Сделать ставку</a>
 
             </div>
-            <!--<div id="top">
-            <h2 class="title">Топ-лоты аукциона №12</h2>
-                <div class="top">
-                    <img class="top-img" src="img/top.png" />
-                    <img src="img/1.png" />
-                    <img class="icon" src="img/icon.png" />
-                    <a href="#"><p style="font-size: 17px;">Сумароков, П.И. Обозрение царствования и свойств Екатерины...</p></a>
-                    <p class="time">10 д. : 10ч. : 47 мин.</p>
-                    <img class="price-img" src="img/price.png" />
-                    <p class="price">Цена: 33 000 Руб</p>
-                    <a class="btn2" href="#">Сделать ставку</a>
-                </div>
-                <div class="top">
-                    <img class="top-img" src="img/top.png" />
-                    <img src="img/2.png" />
-                    <img class="icon" src="img/icon.png" />
-                    <a href="#"><p style="font-size: 17px;">Сумароков, П.И. Обозрение царствования и свойств Екатерины...</p></a>
-                    <p class="time">10 д. : 10ч. : 47 мин.</p>
-                    <img class="price-img" src="img/price.png" />
-                    <p class="price">Цена: 33 000 Руб</p>
-                    <a class="btn2" href="#">Сделать ставку</a>
-                </div>
-                <div class="top">
-                    <img class="top-img" src="img/top.png" />
-                    <img src="img/book1.png" />
-                    <img class="icon" src="img/icon.png" />
-                    <a href="#"><p style="font-size: 17px;">Сумароков, П.И. Обозрение царствования и свойств Екатерины...</p></a>
-                    <p class="time">10 д. : 10ч. : 47 мин.</p>
-                    <img class="price-img" src="img/price.png" />
-                    <p class="price">Цена: 33 000 Руб</p>
-                    <a class="btn2" href="#">Сделать ставку</a>
-                </div>
-                <div class="top">
-                    <img class="top-img" src="img/top.png" />
-                    <img src="img/1.png" />
-                    <img class="icon" src="img/icon.png" />
-                    <a href="#"><p style="font-size: 17px;">Сумароков, П.И. Обозрение царствования и свойств Екатерины...</p></a>
-                    <p class="time">10 д. : 10ч. : 47 мин.</p>
-                    <img class="price-img" src="img/price.png" />
-                    <p class="price">Цена: 33 000 Руб</p>
-                    <a class="btn2" href="#">Сделать ставку</a>
-                </div>                                                
-            </div> -->
-        
-        </div>
-        
-        <div style="width: 100%;background: url(img/noise.png) repeat;">
-        <div class="container clearfix">
-            <div id="news">
-            <h2 class="title">Последние новости антикварного дома</h2>
-                <div class="news">
-                <img src="img/news1.png" />
-                <h3>Первый летний аукцион Антиквариума.</h3>
-                <div class="line"></div>
-                <p>Приглашаем Вас посетить 13-й аукцион «Антиквариума», первый в летнем сезоне, посвященный русскому и западноевропейскому искусству. </p>
-                <a class="btn2" href="#">Читать подробнее</a>
-                </div>
-                
-                <div class="news">
-                <img src="img/news2.png" />
-                <h3>Первый летний аукцион Антиквариума.</h3>
-                <div class="line"></div>
-                <p>Приглашаем Вас посетить 13-й аукцион «Антиквариума», первый в летнем сезоне, посвященный русскому и западноевропейскому искусству. </p>
-                <a class="btn2" href="#">Читать подробнее</a>
-                </div>
-                
-                <div class="news">
-                <img src="img/news3.png" />
-                <h3>Первый летний аукцион Антиквариума.</h3>
-                <div class="line"></div>
-                <p>Приглашаем Вас посетить 13-й аукцион «Антиквариума», первый в летнем сезоне, посвященный русскому и западноевропейскому искусству. </p>
-                <a class="btn2" href="#">Читать подробнее</a>
-                </div>     
-            </div>
 
+        <div class="addtocard">
+            <p>availability: <span>in stock</span></p>
+            <p class="old-price">$37.59</p>
+            <p class="new-price">$30.00</p>
+            <input type="submit" value="Add to cart" />
         </div>
-            <div class="container clearfix">
-                <div class="lot">
-                    <h2 class="title">Lorem ipsum dolor sit amet</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <a class="btn2" href="#">Выставить лот на аукцион</a>
-                    <a class="btn2" href="#">Сдать вещь на комиссию</a>
-                </div>
-            </div>
-        </div>
-        
-        
-        <div class="container clearfix">
-            <div id="smi">
-            <h2 class="title"><span style="text-transform: uppercase;">сми</span> о нас</h2>
-                <div class="smi">
-                <img src="img/smi1.png" />
-                <h4>Иванов Иван</h4>
-                <h3>Блоггер</h3>
-                <h5>21.02.2015</h5>
-                <div class="line"></div><br />
-                <p>«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.»</p>
-                </div>
-                
-                <div class="smi">
-                <img src="img/smi2.png" />
-                <h4>Иванов Иван</h4>
-                <h3>Блоггер</h3>
-                <h5>21.02.2015</h5>
-                <div class="line"></div><br />
-                <p>«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.»</p>
-                </div>
-                
-                <div class="smi">
-                <div class="wr-img"><img src="img/smi3.png" /></div>
-                <h4>Иванов Иван</h4>
-                <h3>Блоггер</h3>
-                <h5>21.02.2015</h5>
-                <div class="line"></div><br />
-                <p>«Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.»</p>
-                </div>                                
-            </div>
-        
-        <div id="btn" class="clearfix">
-            <a class="btn2" href="#">Выставить лот на аукцион</a>
-        </div></div>
-        
-        
-    </div><!-- .content -->
-    
-    
-    <div id="footer">
-        <div class="fcontact">
-            <p style="background: url(img/flogo1.png) left center no-repeat;">г. Москва, Саввинская набережная, д. 23, стр. 1,<br />
-                «Художественный центр на Саввинской»</p>
-            <p style="background: url(img/flogo2.png) left center no-repeat;background-size:25px;">+7 (495) 374-5090 | +7 (499) 678-2274</p>
-            <p style="background: url(img/flogo3.png) left center no-repeat;"><a href="#">info@anticvarium.ru</a></p>
-        </div>
-        
-        
-        <div class="fsocial">
-        <div style="margin-right: 40px;padding: 20px 0 0 0;">
-        <a class="upto" href="#">Наверх<img class="up" src="img/up.png" /></a>
-        <p class="p">Следите за<br />новостями на</p>
-        <a href="#" target="_blank"><img style="margin-top:10px;" src="img/vk.png" /></a>
-        <a href="#" target="_blank"><img style="margin-top:10px;"src="img/fb.png" /></a>
-        <a href="#" target="_blank"><img style="margin-top:10px;"src="img/g.png" /></a><br />
-        <a class="a" href="#" target="_blank"><img style="height:30px;" src="img/mail.png" /></a>
-        <a class="a" href="#" target="_blank"><img style="height:30px;"src="img/c.png" /></a>
-        </div>
-        </div>
-        
-        <div class="fmenu">
-       <!--<a href="#"> <img style="height:30px; width:30px;    float: left;
-    left: 2%;
-    margin: 25px 0 0 20px;" src="img/home.png" /> </a>  -->
-            <a href="#" id="touch-menu">Меню</a>
-            <div><ul class="nav">
-                    <li><a href="#">Новости</a></li>
-                    <li><a href="#">Аукционы</a></li>
-                    <li><a href="#">Галерея</a></li>
-                    <li><a href="#">Информация</a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Контакты</a></li>                              
-                </ul>
-            </div> <br />
-                <p>Аукционный дом «Антиквариум» 2013-2014 ©</p><br />
-                <p>Сайт разработан <a href="#">w3fit studio</a></p>      
-        </div>
-        
 
-    </div>    
-        
-    <!--</div><!-- .container1-->    
+
+        </form>
+        <div class="share">
+            <p>share:</p>
+            <a href="#"><img class="social" src="img/fb.png" /></a>
+            <a href="#"><img class="social" src="img/twt.png" /></a>
+            <a href="#"><img class="social" src="img/g.png" /></a>
+            <a href="#"><img class="social" src="img/pin.png" /></a>
+        </div>
+    </div>
+    <div class="txt">
+        <h2>Nautical print T-shirt</h2>
+        <h3>TH3863-00</h3>
+        <p>An anchor and marine flags accent the chest of this nautical-inspired Lacoste T-shirt. A comfortable piece perfect for urban adventures.</p>
+        <p class="more">read more <span>&#9660;</span></p>
+        <ul>
+            <li>Regular fit</li>
+            <li>Crew neck</li>
+            <li>Lacoste Yachting branding on chest</li>
+            <li>Other</li>
+            <li>Round neck</li>
+            <li>COTTON (100%)</li>
+        </ul>
     </div>
 
-<script type="text/javascript">
-    $(document).ready(function(){
-      $('.slider').slick({
-            dots: true,
-            infinite: true
 
-      });
-        $(window).resize(function(){
-            var wid = $(window).width();
-            if(wid < 980) {
-                $('.slider').slick({
-                    sliderToshow: 2,
-                    slidesToScroll: 2
-                });
-            }
-    });
-  </script>
+    <div class="image slider">
+
+        <div class="b-carousel-button-left"></div>
+        <div class="b-carousel-button-right"></div>
+        <div class="h-carousel-items">
+            <div class="image-img">
+                <img class="b-carousel-block" src="img/photo1.png" />
+                <div class="hidden"><p>our iconic blazer</p><a href="#">read the story</a></div>
+            </div>
+            <div class="image-img">
+                <img class="b-carousel-block" src="img/photo2.png" />
+                <div class="hidden"><p>our iconic blazer</p><a href="#">read the story</a></div>
+            </div>
+            <div class="image-img">
+                <img class="b-carousel-block" src="img/photo3.png" />
+                <div class="hidden"><p>our iconic blazer</p><a href="#">read the story</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
