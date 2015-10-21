@@ -1,126 +1,154 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"  content="width-device-width, initial-scale-1.0" />
-
     <link rel="stylesheet" type="text/css" href="style.css" />
 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
     <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" src="js/work.js"></script>
+    <script type="text/javascript" src="js/workscripts.js"></script>
 
-    <title>Astound Test</title>
+
+	<title>Test</title>
 </head>
+
 <body>
-
-<div id="wrapper">
-    <h1>NAUTICAl T-SHirt</h1>
-    <div class="img">
-        <img src="img/img.png" />
-    </div>
-    <div class="form">
-        <form action="#" method="post">
-            <div class="table">
-                <div class="row">
-                    <div class="cell">color</div>
-                    <div class="cell">
-                        <label class="color color-active" for="color1"></label>
-                        <label class="color" for="color2"></label>
-                        <label class="color" for="color3"></label>
-                        <label class="color" for="color4"></label>
-                        <input type="radio" name="color" id="color1" checked="" />
-                        <input type="radio" name="color" id="color2" />
-                        <input type="radio" name="color" id="color3" />
-                        <input type="radio" name="color" id="color4" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="cell">size</div>
-                    <div class="cell">
-                        <div class="select">
-                            <select name="size">
-                                <option value="0">select one</option>
-                                <option value="1">32</option>
-                                <option value="2">34</option>
-                                <option value="3">36</option>
-                                <option value="3">38</option>
-                                <option value="3">40</option>
-                                <option value="3">42</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="cell">quantity</div>
-                    <div class="cell">
-                        <div class="select">
-                            <select name="size" placeholder="selected one">
-                                <option value="1">1</option>
-                                <option selected value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="3">4</option>
-                                <option value="3">5</option>
-                                <option value="3">6</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        <div class="addtocard">
-            <p>availability: <span>in stock</span></p>
-            <p class="old-price">$37.59</p>
-            <p class="new-price">$30.00</p>
-            <input type="submit" value="Add to cart" />
-        </div>
-
-
-        </form>
-        <div class="share">
-            <p>share:</p>
-            <a href="#"><img class="social" src="img/fb.png" /></a>
-            <a href="#"><img class="social" src="img/twt.png" /></a>
-            <a href="#"><img class="social" src="img/g.png" /></a>
-            <a href="#"><img class="social" src="img/pin.png" /></a>
-        </div>
-    </div>
-    <div class="txt">
-        <h2>Nautical print T-shirt</h2>
-        <h3>TH3863-00</h3>
-        <p>An anchor and marine flags accent the chest of this nautical-inspired Lacoste T-shirt. A comfortable piece perfect for urban adventures.</p>
-        <p class="more">read more <span>&#9660;</span></p>
-        <ul>
-            <li>Regular fit</li>
-            <li>Crew neck</li>
-            <li>Lacoste Yachting branding on chest</li>
-            <li>Other</li>
-            <li>Round neck</li>
-            <li>COTTON (100%)</li>
-        </ul>
-    </div>
-
-
-    <div class="image slider">
-
-        <div class="b-carousel-button-left"></div>
-        <div class="b-carousel-button-right"></div>
-        <div class="h-carousel-items">
-            <div class="image-img">
-                <img class="b-carousel-block" src="img/photo1.png" />
-                <div class="hidden"><p>our iconic blazer</p><a href="#">read the story</a></div>
-            </div>
-            <div class="image-img">
-                <img class="b-carousel-block" src="img/photo2.png" />
-                <div class="hidden"><p>our iconic blazer</p><a href="#">read the story</a></div>
-            </div>
-            <div class="image-img">
-                <img class="b-carousel-block" src="img/photo3.png" />
-                <div class="hidden"><p>our iconic blazer</p><a href="#">read the story</a></div>
-            </div>
-        </div>
-    </div>
+<div class="lang">
+    <div><a href="#">eng</a></div>
+    <div><a href="#">aze</a></div>
+    <div class="active1"><a href="#">рус</a></div>
 </div>
+
+    <div id="wrapper">
+
+
+        <header class="container clearfix">
+            <div id="logo">
+                <div class="logo-bg"></div>
+                <div class="logo"><a href="#">Logo</a></div>
+
+            </div>
+            <div class="link">
+                <div class="link-wrap">
+                    <div><a href="#"><span>
+                        <img src="img/link-bg.png"/>
+                    </span>Lorem ipsum dolor sit</a></div>
+                    <div><a href="#"><span>
+                        <img src="img/link-bg.png"/>
+                    </span>Lorem ipsum</a></div>
+                </div>
+                <div class="link-wrap">
+                    <div><span><img src="img/link-bg.png"/></span><a href="#">Lorem ipsum dolor</a><br /></div>
+                    <div><span><img src="img/link-bg.png"/></span><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing</a></div>
+                </div>
+                <div class="link-wrap">
+                    <div><span><img src="img/link-bg.png"/></span></span><a href="#">Lorem ipsum dolor</a></div>
+                    <div><span><img src="img/link-bg.png"/></span></span><a href="#">Lorem ipsum dolor sit</a></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <nav>
+                <!--<div id="lines"></div>-->
+                <a href="#" id="touch-menu">Меню</a>
+                <ul class="nav clearfix">
+                    <li><a href="#">пункт меню</a></li>
+                    <li><a href="#">длинный пункт меню</a></li>
+                    <li><a href="#">очень длинный пункт меню</a></li>
+                    <li><a href="#">еще пункт</a></li>
+                    <li><a href="#">п. меню</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="content" class="container clearfix">
+
+            <div class="form clearfix">
+                <div class="form1 clearfix">
+                <form>
+                    <h2>form</h2>
+                    <div class="main-form">
+                        <label>label #1</label>
+                        <input class="first" />
+                        <br />
+                    <div class="form-child">
+                        <label>label #2</label>
+                        <input />
+                        <label>label #3</label>
+                        <input />
+                    </div>
+                    <div class="form-child1">
+                        <label>label #4</label>
+                        <input />
+                        <label>label #5</label>
+                        <input />
+                    </div>
+                        <input class="submit" type="submit" value="submit" style=""/>
+                    </div><!-- .main-form -->
+                </form>
+                    <div class="block clearfix">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation</p>
+
+                        <input class="submit" type="submit" value="submit" style=""/>
+                    </div>
+                </div><!-- /form1 -->
+
+
+            </div><!-- .form clearfix-->
+            <div class="second clearfix">
+                <div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+                    </div>
+                </div>
+            </div>
+            <div class="third clearfix">
+               <!-- <div class="outer">-->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+
+                    <div></div>
+                    <div></div>
+                <!--</div>-->
+            <!-- <div class="outer">-->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+               <!-- </div>-->
+                <a class="more-third" href="#">more</a>
+            </div>
+            <div class="four clearfix">
+                <div><input value="1"/><input value="2"/><input value="3" /></div>
+                <div><input value="4"/><input value="5"/><input value="6"/></div>
+                <div><input value="7"/><input value="8"/><input value="9"/></div>
+            </div>
+
+        </div>
+
+
+    </div>
+
 
 </body>
 </html>
